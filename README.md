@@ -11,11 +11,11 @@ User opens software and selects whether they are a *taxi* or *customer* (either 
 
 ### Workflow:
 
-**Taxi:** Using their private key, the taxi publishes their `geolocation`, `rate`, and `availability` to relays.
+**Taxi:** Using their private key, the *taxi* publishes their `geolocation`, `rate`, and `availability` to relays.
 
-**Customer:** Software recieves all taxis in the location of the customer and lists their `rate`, `availability` and `reputation` (if the taxi has `reputation` https://github.com/fiatjaf/nostr/issues/20).
+**Customer:** Software recieves all *taxis* in the location of the customer and lists their `rate`, `availability` and `reputation` (if the taxi has `reputation` https://github.com/fiatjaf/nostr/issues/20).
 
-**Customer** Using their private key, the customer publishes a request for a particular taxi and where they want to go.
+**Customer** Using their private key, the customer publishes a request for a particular *taxi* and where they want to go.
 
 **Taxi:** The *taxi* receives the *customers* request, and `reputation`, if the *customer* has `reputation` https://github.com/fiatjaf/nostr/issues/20
 
@@ -23,4 +23,4 @@ User opens software and selects whether they are a *taxi* or *customer* (either 
 
 **Customer/Taxi:** Service happens, `reputation` is given at the end of the transaction.
 
-> Note: I will build an https://github.com/lnbits/lnbits extension that acts as a Nostr client software for taxi driver and customer, but any client software for BUber will perform the same functions
+> Note: I will build an https://github.com/lnbits/lnbits extension that acts as a Nostr client software for *taxi* and *customer*, but any client software for BUber will perform the same functions
