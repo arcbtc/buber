@@ -5,7 +5,7 @@ Uber works well, apart from the Uber company.
 
 BUber uses the https://github.com/fiatjaf/nostr network to connect taxis and clients, in a permissionless way.
 
-This example will be through a fictional https://github.com/lnbits/lnbits extension that acts as a Nostr client software for taxi driver and customer 
+> This example will be through a fictional https://github.com/lnbits/lnbits extension that acts as a Nostr client software for taxi driver and customer 
 
 ### Setup workflow:
 
