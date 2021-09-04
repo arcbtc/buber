@@ -7,7 +7,7 @@ BUber uses the Nostr network to connect taxis and clients, in a permissionless w
 
 This example will be through a fictional https://github.com/lnbits/lnbits extension that acts as a nostr client software for a taxi driver and customer 
 
-Setup workflow:
+### Setup workflow:
 
 User opens client and selects whether they are a taxi or customer, either choice issues Schnoor keypair, or they can add their own pre-existing keypair 
 
