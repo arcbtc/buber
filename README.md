@@ -7,7 +7,7 @@ BUber uses the https://github.com/fiatjaf/nostr network to connect taxis and cli
 
 ### Setup:
 
-User opens extension and selects whether they are a *taxi* or *customer* (either choice issues Schnoor keypair, or they can add their own pre-existing keypair)
+User opens software and selects whether they are a *taxi* or *customer* (either choice issues Schnoor keypair, or they can add their own pre-existing keypair)
 
 ### Workflow:
 
