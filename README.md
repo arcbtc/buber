@@ -5,9 +5,11 @@ Uber works well, apart from the Uber company.
 
 BUber uses the https://github.com/fiatjaf/nostr network to connect taxis and clients, in a permissionless way.
 
-### Setup workflow:
+### Setup:
 
 User opens extension and selects whether they are a *taxi* or *customer* (either choice issues Schnoor keypair, or they can add their own pre-existing keypair)
+
+### Workflow:
 
 **Taxi:** Using their private key, the taxi publishes their `geolocation`, `rate`, and `availability` to relays.
 
